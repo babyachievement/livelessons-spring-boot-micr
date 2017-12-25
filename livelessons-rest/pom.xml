@@ -9,21 +9,16 @@
         <relativePath>../livelessons-parent</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
+    <packaging>pom</packaging>
 
-    <artifactId>livelessons-data</artifactId>
+
+    <artifactId>livelessons-rest</artifactId>
+
     <properties>
         <main.basedir>..</main.basedir>
     </properties>
-    <packaging>pom</packaging>
     <modules>
-        <module>livelessons-data-jpa</module>
-        <module>livelessons-data-jdbc</module>
-        <module>livelessons-data-flyway</module>
-        <module>livelessons-data-redis</module>
-        <module>livelessons-data-mongodb</module>
-        <module>livelessons-data-elasticsearch</module>
-        <module>livelessons-data-rest</module>
+        <module>livelessons-rest-basic</module>
+        <module>livelessons-rest-errors</module>
     </modules>
-
-
 </project>
