@@ -15,5 +15,6 @@
         <module>livelessons-rest</module>
         <module>livelessons-integration</module>
         <module>livelessons-security</module>
+        <module>livelessons-testing</module>
     </modules>
 </project>
